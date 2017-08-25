@@ -1,0 +1,37 @@
+body {
+  background-color: lightcyan;
+  font-family: Verdana, Times, Serif;
+}
+
+.component {
+  text-decoration: none;
+  font-size: 0.875em;
+}
+
+.selectedComponent {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#componentContainer {
+  margin-bottom: 20px;
+}
+
+.storyPoint {
+  display: table-cell;
+  width: 10em;
+  height: 10em;
+  background-color: powderblue;
+  text-align: center;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.topCandidate {
+  background-color: red;
+}
+
+.candidate {
+  background-color: orange;
+}
