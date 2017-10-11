@@ -8,6 +8,12 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
+  $("#resetLink").click(function(event) {
+    $(".component").removeClass("selectedComponent");
+    visualizeStoryPoints(0);
+    event.preventDefault();
+  });
+
   function countStoryPoints() {
     return $('.selectedComponent').length;
   }
